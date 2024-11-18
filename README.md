@@ -24,6 +24,11 @@ Boundary Refinement: The boundaries of the segmented regions are often refined t
 The notebooks are best run separately in Google Co-lab. Certain notebooks may require a higher GPU usage.
 
 ## Results
+<img src="https://github.com/erm1na/PixelPerfect/blob/main/images/Screenshot%202024-11-17%20194442.png" alt="Alt text" width="450"/>
+<img src="https://github.com/erm1na/PixelPerfect/blob/main/images/Screenshot%202024-11-17%20194500.png" alt="Alt text" width="450"/>
+<img src="https://github.com/erm1na/PixelPerfect/blob/main/images/Screenshot%202024-11-17%20194514.png" alt="Alt text" width="450"/>
+<img src="https://github.com/erm1na/PixelPerfect/blob/main/images/Screenshot%202024-11-17%20194526.png" alt="Alt text" width="450"/>
+
 
 
 ## Conclusion
