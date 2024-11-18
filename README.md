@@ -19,6 +19,16 @@ Boundary Refinement: The boundaries of the segmented regions are often refined t
 - **Gaussian Blur:** Gaussian blur reduces noise by averaging pixel values with a function gives more weight to central pixels in a specified neighborhood.
 - **Entropy and SSIM:** The entropy and SSIM optimization were used to maximize information content by adjusting image features to enhance clarity and still preserve each image’s structural information.
 
+*X-ray after preprocessing methodology:*
+
+
+<img src="https://github.com/erm1na/PixelPerfect/blob/main/images/Screenshot%202024-11-17%20202644.png" alt="Alt text" width="450"/>
+
+*SAM contoured image:*
+
+
+<img src="https://github.com/erm1na/PixelPerfect/blob/main/images/Screenshot%202024-11-17%20202709.png" alt="Alt text" width="450"/>
+
 ## Features
 
 - **Image Preprocessing:** Utilize image preprocessing methods to help SAM identify pneumonia through potentially ambiguous lung X-rays.
