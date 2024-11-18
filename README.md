@@ -12,6 +12,13 @@ Feature Extraction: The first step involves extracting meaningful features from 
 Grouping: Once features are extracted, they are grouped together based on similarity. This can be done using techniques like clustering or thresholding.
 Boundary Refinement: The boundaries of the segmented regions are often refined to ensure they accurately represent the objects in the image. This might involve smoothing edges or removing small, noisy regions.
 
+## Preprocessing Methodology
+
+- **Canny Edge Detection (CED):** CED identifies clear, continuous edges by smoothing the image and filtering pixels based on thresholding and edge connectivity.
+- **CLAHE:** CLAHE enhances image contrast by dividing an image into small regions, applying histogram equalization to each, and limiting contrast to reduce noise.
+- **Gaussian Blur:** Gaussian blur reduces noise by averaging pixel values with a function gives more weight to central pixels in a specified neighborhood.
+- **Entropy and SSIM:** The entropy and SSIM optimization were used to maximize information content by adjusting image features to enhance clarity and still preserve each image’s structural information.
+
 ## Features
 
 - **Image Preprocessing:** Utilize image preprocessing methods to help SAM identify pneumonia through potentially ambiguous lung X-rays.
